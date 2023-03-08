@@ -1,0 +1,120 @@
+/* BIOGRAPHY SECTION */
+
+/*
+CULORI
+
+#68614B un verde-maroniu luat de pe logo
+#FFD88F un auriu de pe logo2
+#C9B796 un auriu mai sters, derivat de la cel de mai sus
+#121212 un gri foarte inchis
+ */
+
+.show-members {
+  border: 1px solid #FFD88F;
+  background: black;
+  color: #FFD88F;
+  transition: .5s;
+  border-radius: 3px;
+  display: none;
+  margin: 1.5em 0px 0px 0px;
+}
+
+.show-members:hover {
+  background: #FFD88F;
+  color: black;
+}
+
+.show-members:focus {
+  outline: none;
+}
+
+.band-members {
+  margin: 2em 0px 0px 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.member {
+  height: 15em;
+  margin: 0px 0.5em 0px 0.5em;
+  border-bottom: 1px solid #FFD88F;
+  border-radius: 2px;
+  transition: transform .2s;
+}
+
+.member:hover {
+  border-color: silver;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.member-pointer {
+  margin: 1em 0px 0px 0px;
+  display: none;
+}
+
+.member-info {
+  display: flex;
+  background: #121212;
+  border-radius: 4px;
+  margin: 0.75em 0px 0px 0px;
+  padding: 0.5em;
+  width: 100%;
+  border-bottom: 1px solid #FFD88F;
+}
+
+.member-info span {
+  font-size: 20px;
+  color: #FFD88F;
+}
+
+.member-info p {
+  margin: 0;
+  color: #766633;
+}
+
+.member-info .member-info-pic {
+  margin: 0 auto;
+}
+
+.member-info .logo {
+  height: 10em;
+  transition: .5s;
+}
+
+.member-info .logo:hover {
+  transform: scale(1.1);
+}
+
+
+/* HISTORY */
+
+.history-title {
+  margin-top: 2em;
+}
+
+
+
+.history-list {
+  color: #FFD88F;
+  font-size: 21px;
+  list-style-type: none;
+}
+
+
+/*.history-list li:first-child {
+	margin: 0;
+	padding: 36px 0 36px 84px;
+	list-style: none;
+	background-image: url("../img/logo2.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 30px;
+}*/
+
+.history-list p {
+  color: silver;
+  font-size: 18px;
+}

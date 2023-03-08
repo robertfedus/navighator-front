@@ -1,0 +1,60 @@
+/*
+CULORI
+
+#68614B un verde-maroniu luat de pe logo
+#FFD88F un auriu de pe logo2
+#C9B796 un auriu mai sters, derivat de la cel de mai sus
+#121212 un gri foarte inchis
+ */
+
+
+footer {
+  padding: 0.5em 0px 0px 0px;
+  margin-bottom: 0;
+  background-image: linear-gradient(black, #121212);
+
+}
+
+.sponsored {
+  color: #FFD88F;
+}
+
+.sponsors {
+  margin-top: 0.75em;
+  display: flex;
+  justify-content: center;
+  padding: 1.5em 0px 1.5em 0px;
+}
+
+.sponsor {
+  height: 4em;
+  margin: 0px 1em 0px 1em;
+  transition: .5s;
+}
+
+.sponsor:hover {
+  transform: scale(1.1);
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5em 0px 3em;
+  font-size: 12px;
+}
+
+.copyright p {
+  font-size: inherit;
+}
+
+.copyright span {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  font-size: inherit;
+  color: #FFD88F;
+  cursor: pointer;
+}
+
+.copyright span:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,218 @@
+/*
+CULORI
+
+#68614B un verde-maroniu luat de pe logo
+#FFD88F un auriu de pe logo2
+#C9B796 un auriu mai sters, derivat de la cel de mai sus
+#121212 un gri foarte inchis
+ */
+
+/* la 768 dispare navbar-ul */
+
+.navbar-collapse {
+  width: 100%;
+}
+
+.member-info-mobile {
+  display: none;
+}
+
+ @media screen and (max-width: 100px) {
+   .logo {
+     margin-left: 1em;
+   }
+ }
+
+ @media screen and (max-width: 1440px) {
+   .logo-container, nav {
+     margin-left: 1em;
+   }
+ }
+
+ @media screen and (max-width: 540px) {
+   .logo {
+     width: 100%;
+     margin-left: 0.3em;
+     margin-bottom: 0;
+   }
+ }
+
+/* MEMBRII SE ALINIAZA PE VERTICALA */
+
+ @media screen and (max-width: 769px) {
+
+   .navbar-collapse-icon {
+     display: inline !important;
+     margin: 0 auto;
+   }
+
+   .show-members {
+     display: block;
+   }
+
+   .band-members {
+     display: none;
+   }
+
+   .contact-icons {
+     display: flex;
+     justify-content: center;
+     transform: scale(0.6);
+     padding: none;
+   }
+
+   .contact-icons-2 {
+     margin: 0;
+     justify-content: center;
+   }
+
+
+   .banner {
+     height: 130%;
+     width: 100%;
+     margin: 0;
+     transform: scale(1.2);
+     margin-top: 1em;
+   }
+
+   .band-members {
+     display: block;
+   }
+
+   .member-pointer {
+     display: block;
+   }
+
+   .member-info-pic {
+     display: none;
+   }
+
+   .member:hover {
+     transform: none;
+   }
+
+   .member:hover {
+     border-bottom: 1px solid #FFD88F;
+   }
+
+   .history-title {
+     margin-bottom: 2em;
+   }
+
+   .member-info {
+     display: none;
+   }
+ }
+
+/* SA REVINA MEMBRII LA NORMAL */
+
+
+/* SE ALINIAZA CORECT MEMBRII PENTRU MOBIL */
+ /*@media screen and (max-width: 900px) {
+   .band-members {
+     transform: scale(0.9);
+   }
+ }
+
+ @media screen and (max-width: 810px) {
+   .band-members {
+     transform: scale(0.8);
+   }
+ }
+
+ @media screen and (max-width: 710px) {
+   .band-members {
+     transform: scale(0.7);
+   }
+ }
+
+ @media screen and (max-width: 640px) {
+   .band-members {
+     transform: scale(0.6);
+   }
+ }
+
+ @media screen and (max-width: 630px) {
+   .band-members {
+     transform: scale(0.55);
+   }
+ }*/
+
+@media screen and (max-width: 1000px) {
+  .news-row {
+
+  }
+}
+
+/* DISPARE PARTEA DIN DREAPTA */
+
+ @media screen and (max-width: 1210px) {
+   .right-side {
+     display: none;
+   }
+
+   .news-icons {
+     display: none;
+   }
+
+   .news-right .icon{
+     display: block !important;
+     margin: 1em 0px 1em 0px;
+   }
+
+   .news-right .youtube-icon {
+     margin-top: 0;
+   }
+
+   .container {
+     margin: 0 auto;
+   }
+ }
+
+/* SE STRICA SI SE FACE FOOTER-UL PENTRU MOBIL */
+
+
+
+@media screen and (max-width: 886px) {
+  footer .sponsors {
+    transform: scale(0.8);
+  }
+}
+
+@media screen and (max-width: 712px) {
+  footer .sponsors {
+    transform: scale(0.7);
+  }
+}
+
+@media screen and (max-width: 632px) {
+  footer .sponsors {
+    display: none;
+  }
+
+  footer .sponsors-mobile {
+    display: block;
+    margin-top: 0.75em;
+    padding: 0.5em;
+  }
+
+  footer .sponsors-mobile a {
+    color: silver;
+  }
+
+  footer .sponsors-mobile a:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+
+  .ghost-logo {
+    margin-right: 3em;
+  }
+
+}
+
+@media screen and (max-width: 565px) {
+  footer .copyright span{
+    display: inline-block;
+  }
+}

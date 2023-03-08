@@ -1,0 +1,47 @@
+/*
+CULORI
+
+#68614B un verde-maroniu luat de pe logo
+#FFD88F un auriu de pe logo2
+#C9B796 un auriu mai sters, derivat de la cel de mai sus
+
+ */
+
+/* NEWS SECTION */
+
+.news-pic-mobile {
+
+}
+
+.container {
+  margin-top: 1.5em;
+}
+
+.news-date .date{
+  text-decoration: underline;
+  text-decoration-color: #68614B;
+  text-underline-position: under;
+}
+
+.container .title2 {
+  margin: 0;
+  margin-right: 0.3em;
+}
+
+.container .title2-container .logo2 {
+  margin: 0;
+}
+
+.container p {
+  margin-top: 1.5em;
+}
+
+.container .text-2 {
+  color: #68614B;
+}
+
+.container .ghost-logo {
+  height: 15em;
+  border: 1px solid silver;
+  margin-bottom: 1em;
+}

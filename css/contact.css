@@ -1,0 +1,92 @@
+/*
+CULORI
+
+#68614B un verde-maroniu luat de pe logo
+#FFD88F un auriu de pe logo2
+#C9B796 un auriu mai sters, derivat de la cel de mai sus
+#121212 un gri foarte inchis
+ */
+
+.contact-title {
+  margin: 1.5em 0px 0px 0px;
+}
+
+.contact-icons {
+  margin: 1.5em 0px 0px 0px;
+}
+
+.contact-icons .icon {
+  color: #FFD88F;
+  margin: 0px 0.5em 0px 0.5em;
+  transition: .5s;
+}
+
+.contact-icons .icon:hover {
+  color: silver;
+  transform: scale(1.1);
+}
+
+form input, form textarea, form select {
+  display: block;
+  text-align: center;
+  margin: 0.75em 0px 0px 0px;
+  border: 1px solid #FFD88F;
+  background: black;
+  color: #FFD88F;
+  border-radius: 2.5px;
+}
+
+form input::placeholder, form textarea::placeholder {
+  color: #4B4B4B;
+  font-style: italic;
+}
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   text-align: center;
+}
+
+form input:focus, form textarea:focus {
+  outline: none;
+  border-color: silver;
+}
+
+form .text-input {
+  width: 15em;
+}
+
+form select {
+  width: 7em;
+  padding-left: 2px;
+}
+
+form select:focus {
+  outline: none;
+}
+
+form textarea {
+  width: 20em;
+  padding-top: 0.75em;
+  height: 3em;
+}
+
+form .submit {
+  transition: .5s;
+  width: 5em;
+}
+
+form .submit:hover {
+  color: black;
+  background: #FFD88F;
+  border-color: silver;
+}

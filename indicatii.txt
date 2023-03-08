@@ -1,0 +1,29 @@
+Site Selection/Menus
+
+NEWS | BIOGRAPHY | MUSIC | MERCHANDISE | MEDIA | CONTACT
+
+NEWS
+	Page with the last news of the band
+
+BIOGRAPHY
+	Band’s bio
+
+MUSIC
+	Releases/Album info & links to Spotify/Apple Music / etc…
+
+MERCHANDISE
+	The store (PayPal)
+
+MEDIA
+	Photos & Videos selection
+
+CONTACT
+	Contact info & Press Kit (.zip/ download available)
+
+FOOTER
+	All social network links
+	All endorsement logos & links
+	last line, example from night wish:
+“© 2018 Nightwish. All rights reserved. | DESIGN by Rebecca Brayman | CREATED with Stage  Disclaimer Privacy Policy
+
+THIS WEBSITE IS USING COOKIES. BY USING THIS WEBSITE, YOU AGREE TO OUR PRIVACY POLICY. CLOSE ×”. ***(If needed)

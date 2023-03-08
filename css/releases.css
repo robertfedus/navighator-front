@@ -1,0 +1,17 @@
+/*
+CULORI
+
+#68614B un verde-maroniu luat de pe logo
+#FFD88F un auriu de pe logo2
+#C9B796 un auriu mai sters, derivat de la cel de mai sus
+#121212 un gri foarte inchis
+ */
+
+ .ghost-logo {
+   border-color: #FFD88F !important;
+ }
+
+.ghost-logo-2 {
+
+  margin: 1em 0px 0px 1em;
+}

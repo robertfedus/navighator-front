@@ -1,0 +1,211 @@
+* {
+  margin-right: none;
+}
+
+
+html, body {
+  margin: 0;
+  padding-right: none;
+  background: black;
+  color: silver;
+  font-family: 'IM Fell Great Primer';
+  animation: lighting 4s linear infinite;
+}
+
+/*
+CULORI
+
+#68614B un verde-maroniu luat de pe logo
+#FFD88F un auriu de pe logo2
+#C9B796 un auriu mai sters, derivat de la cel de mai sus
+
+ */
+
+ .second-title {
+   margin-top: 1em;
+   color: #C9B796;
+   text-decoration: underline;
+   text-underline-position: under;
+ }
+
+.banner {
+  display: none;
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+p {
+  font-size: 18px;
+}
+
+.logo2 {
+  height: 2em;
+  display: inline;
+  margin-bottom: 0.4em;
+}
+
+.nav-logo2 {
+  cursor: pointer;
+}
+
+.navbar-collapse-icon {
+  display: none !important;
+}
+
+.logo-list-bullet {
+  display: inline;
+  height: 28px;
+  margin-right: 7px;
+  margin-bottom: 6px;
+}
+
+.logo-rotate, .logo2 {
+  transition: transform .5s ease-in-out;
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+}
+
+.logo-rotate:hover, .logo2:hover {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+
+.title, .left, .right {
+  display: flex;
+  align-items: center;
+
+}
+
+.container h1 {
+  color: #FFD88F;
+  margin-left: 0.3em;
+}
+
+.music-icons {
+  color: #FFD88F;
+  margin: 1.5em 0px 0px 0px;
+
+}
+
+.icon {
+  transition: .5s;
+}
+
+.youtube-icon:hover {
+  color: #FF0000 !important;
+}
+
+.spotify-icon:hover {
+  color: #1DB954 !important;
+}
+
+.apple-icon:hover {
+  color: white !important;
+}
+
+.facebook-icon:hover {
+  color: #3B5998 !important;
+}
+
+.instagram-icon:hover {
+  color: #E1306C !important;
+}
+
+.music-icons .middle {
+  margin: 0px 0.5em 0px 0.5em;
+}
+
+.music-icons a {
+  color: inherit;
+}
+
+/* NAVBAR */
+
+nav {
+  background: black;
+  justify-content: center !important;
+  align-items: flex-start;
+}
+
+.navbar-collapse {
+  justify-content: center !important;
+  background: black;
+}
+
+.hamburger {
+  color: #FFD88F;
+
+}
+
+.hamburger:focus {
+  outline: none;
+  border: 0.5px solid #FFD88F;
+}
+
+nav .nav-item {
+  margin: 0px 1em 0px 1em;
+}
+
+.navbar-ul-2 {
+  margin-right: 3em;
+}
+
+nav span {
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+  display: none;
+  color: #68614B;
+  font-size: 18px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+nav span:hover {
+  color: silver;
+}
+
+nav p {
+  color: #FFD88F;
+  align-self: center !important;
+  font-size: 20px;
+}
+
+.logo {
+  /*height: 7em;*/
+  height: auto;
+  max-height: 10em;
+  margin: 0 auto;
+  transition: .5s;
+  /*width: 100%; - PE ECRANE MICI, PENTRU LOGO RESPONSIVE*/
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 5em;
+}
+
+.sponsors-mobile {
+  display: none;
+}
